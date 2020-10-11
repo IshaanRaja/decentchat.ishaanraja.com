@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-![Logo][assets/icon.png]
-![Screenshot][assets/screenshot.png]
+![Logo](assets/icon.png)
+![Screenshot](assets/screenshot.png)
 
 ## What is DecentChat?
 DecentChat is global, peer-to-peer, decentralized chatroom. It does not rely on a moderator or central server and can continue to exist perpetually as long as there are nodes online. 
