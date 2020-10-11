@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-![Logo](assets/icon.png)
 ![Screenshot](assets/screenshot.png)
 
 ## What is DecentChat?
