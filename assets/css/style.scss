@@ -2,8 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-$neutral-color: rgb(28,28,28)
-$primary-color: rgb(43,43,43)
+$neutral-color: rgb(28,28,28);
+$primary-color: rgba(43,43,43,255);
 
 #header nav li a {
      border-color: $neutral-color;
