@@ -1,8 +1,9 @@
 title: DecentChat
-description: DecentChat is a P2P global chat client.
+description: A global decentralized P2P chat network.
 show_downloads: true
 theme: jekyll-theme-midnight
 
 github:
      repository_url: https://github.com/IshaanRaja/DecentChat
-     
+     tar_url: https://github.com/IshaanRaja/DecentChat/tarball/main
+     zip_url: https://github.com/IshaanRaja/DecentChat/zipball/main

@@ -9,8 +9,8 @@ layout: default
 <p align="center">
 The official reference implementation for the DecentChat network.
 </p>
-![Screenshot](assets/screenshot.png)
 
+![Screenshot](https://decentchat.ishaanraja.com/assets/screenshot.png)
 ## Table of Contents
 - [What is DecentChat?](#what-is-decentchat)
 - [Features](#features)
@@ -46,7 +46,7 @@ Some notable features include:
 -  No IP/identifier link, there is no definitive way to find out the IP Address of anyone on the network
 
 ## Whitepaper
-The whitepaper can be found here.
+The whitepaper can be found [here](https://decentchat.ishaanraja.com/whitepaper.pdf).
 
 ## License
 This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
@@ -109,19 +109,19 @@ To use a command, type a “/” at the beginning of your message, to indicate t
 
 Available commands are as follows:
 -   “/help” - Provides a list of available commands
--   “/addpeer [address]” - Allows a user to manually add a peer by specifying its IP Address   
--   “/peerinfo” - Shows a list of connected peers  
--   “/difficultyinfo” - Shows the client’s current difficulty    
+-   “/addpeer [address]” - Allows a user to manually add a peer by specifying its IP Address
+-   “/peerinfo” - Shows a list of connected peers
+-   “/difficultyinfo” - Shows the client’s current difficulty
 -   “/ignore [identifier]” - Ignores a specified identifier. See above for how to get another user's identifier.
 -   “/ignorelist” - Shows the list of currently ignored identifiers
--   “/unignore [identifier]” - Removes a specified identifier from the ignore list    
--   “/changeusername [new_username]” - Changes the client’s human readable username for all following messages (see section 4).   
+-   “/unignore [identifier]” - Removes a specified identifier from the ignore list
+-   “/changeusername [new_username]” - Changes the client’s human readable username for all following messages (see section 4).
 
 Command arguments are specified in brackets (“[]”).
 More commands may be added in the future to accommodate additional features or functionality
 
 ## Ignoring
-Inevitably, there will be users that you do not want to see messages from. To assist with this, DecentChat provides an ignoring functionality. To ignore a user, use the /ignore command with the user you wish to ignore's 10 character key identifier. This will stop the client from displaying or propagating messages from that user.
+Inevitably, there will be users that you do not want to see messages from. To assist with this, DecentChat provides an ignoring functionality. To ignore a user, use the /ignore command with the user you wish to ignore's 10 character key identifier. This will stop the client from displaying messages from that user.
 
 To stop ignoring a user, use the /unignore command.
 

@@ -9,3 +9,8 @@ $primary-color: rgba(43,43,43,255);
      border-color: $neutral-color;
      background-color: $primary-color;
 }
+#header nav li a:hover {
+     border-color: $primary-color;
+     background-color: white;
+}
+
