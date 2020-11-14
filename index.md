@@ -46,7 +46,7 @@ Some notable features include:
 -  No IP/identifier link, there is no definitive way to find out the IP Address of anyone on the network
 
 ## Whitepaper
-The whitepaper can be found [here](https://decentchat.ishaanraja.com/whitepaper.pdf).
+The whitepaper can be found [here](https://decentchat.ishaanraja.com/decentchat.pdf).
 
 ## License
 This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
