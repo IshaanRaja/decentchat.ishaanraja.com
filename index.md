@@ -11,11 +11,13 @@ The official reference implementation for the DecentChat network.
 </p>
 
 ![Screenshot](https://decentchat.ishaanraja.com/assets/screenshot.png)
+
 ## Table of Contents
 - [What is DecentChat?](#what-is-decentchat)
 - [Features](#features)
 - [Whitepaper](#whitepaper)
 - [License](#license)
+- [Downloads](#downloads)
 - [Getting Started](#getting-started)
 - [Sending Messages](#sending-messages)
 - [Seed Nodes](#seed-nodes)
@@ -49,18 +51,21 @@ Some notable features include:
 The whitepaper can be found [here](https://decentchat.ishaanraja.com/decentchat.pdf).
 
 ## License
-This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
+This project is licensed under the terms of the [MIT license](https://github.com/IshaanRaja/DecentChat/blob/master/LICENSE).
+
+## Downloads
+Stable releases are available for download in [Releases](https://github.com/IshaanRaja/DecentChat/releases). 
 
 ## Getting Started
-Stable releases are available for download in the "Releases" section. The DecentChat client requires Java 8 or above. 
+Before running DecentChat, ensure Java 8 or above is installed.
 
-DecentChat runs on port 10862 and sends out chat messages and peers to other users through JSON. 
+Then, download the [latest stable release](https://github.com/IshaanRaja/DecentChat/releases) and run it. 
 
-DecentChat does not explicitly require port forwarding and can function through reverse connections. However, accepting inbound connections helps to strengthen the network and reduce centralization. 
+If running DecentChat on a headless machine, make sure that `headlessMode` is set to `true`in `config.json`.
 
 When started, DecentChat will look for other peers, ask for their peers, and try to establish connections to up to the configured maximum amount of peers (see `config.json`). 
 
-All peers are stored in the `peers.txt`
+All peers are stored in `peers.txt`
 
 ## Sending Messages
 Messages can be between 1 and 256 characters. To send a message, simply type in the box at the bottom of the client, and press the "Send" button or the Enter key to send it to the network. 
@@ -88,7 +93,7 @@ The default `config.json` looks like this:
 ```
 - `maximumConnections` is the maximum amount of peers the client can have. 
 - `username` is the human readable username that is sent along with every chat message.
-- `upnpEnabled` is an optional setting that determines if the client should uses Universal-Plug-and-Play (UPNP). If UPNP is not available on the network, the client will be unable to use it.
+- `upnpEnabled` is an optional setting that determines if the client should uses Universal-Plug-and-Play (UPNP). If UPNP is not available on the network, this option does nothing.
 - `headlessMode` determines whether the client should use a GUI or a command line interface.
 
 ## Identification
